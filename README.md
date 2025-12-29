@@ -155,4 +155,5 @@ Explanation of command parameters:
 ```bash
 pyinstaller --onefile --noconsole --name "System_Date_Increaser" System_Date_Increaser.py
 ```
+
 3. **Close the game program, then open System_Date_Increaser.exe, click the button, and open the game program again to obtain the idle rewards.**
