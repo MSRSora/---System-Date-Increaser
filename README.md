@@ -1,12 +1,10 @@
 # 系统日期增加器 - System Date Increaser
 
-## 这是什么？ - What's this?
+## 这是什么？
 
 这是一个可以快速增加Windows系统日期的小程序，可用于快速刷取含挂机要素的单机游戏的奖励，而无需频繁调整系统日期或时间。
 
-This is a small program that can quickly update the date of the Windows system. It can be used to quickly claim the rewards of single-player games with auto-play elements without the need to frequently adjust the system date or time.
-
-## 哪些游戏可以用这个程序？ - Which games can be played with this program?
+## 哪些游戏可以用这个程序？
 
 包括但不限于：
 
@@ -16,14 +14,7 @@ This is a small program that can quickly update the date of the Windows system. 
 
 <!--笔者开发这个程序的起因，是在游玩一款名为《冥狱战术（Hadean Tactics）》的游戏时，发现墓穴中有一个每天只能领取一次的宝箱，领取后需等待约1天的倒计时，而后才能再次领取。为了快速获取奖励以达成全收集成就，因此开发了该程序。-->
 
-Including but not limited to: 
-- Plant vs. Zombies (Accelerates the growth of plants in Zen Garden, grants rewards such as watering, fertilizing, and selling plants)
-- Escape From Duckov (Quickly acquires mining rewards, refreshes various store items)
-- Various single-player auto-play (Idle) games
-
-<!--The reason why I developed this program was that while playing a game called "Hadean Tactics", I discovered that there was a treasure chest in the tomb that could only be claimed once a day. After claiming it, there was a countdown of about 1 day before one could claim it again. In order to quickly obtain the rewards and achieve the full collection achievement, I developed this program.-->
-
-## 使用方法 - Usage
+## 使用方法 
 
 1. 如果您的系统是Windows 11，右键点击菜单栏右下角的系统时间 - 调整日期和时间，**将“自动设置时间”选项关闭**。
 
@@ -102,6 +93,21 @@ Including but not limited to:
 
 3. **关闭游戏程序，然后打开System_Date_Increaser.exe，点击按钮，再次打开游戏程序即可获取挂机奖励。**
 
+## What's this?
+
+This is a small program that can quickly update the date of the Windows system. It can be used to quickly claim the rewards of single-player games with auto-play elements without the need to frequently adjust the system date or time.
+
+## Which games can be played with this program?
+
+Including but not limited to: 
+
+- Plant vs. Zombies (Accelerates the growth of plants in Zen Garden, grants rewards such as watering, fertilizing, and selling plants)
+- Escape From Duckov (Quickly acquires mining rewards, refreshes various store items)
+- Various single-player auto-play (Idle) games
+
+<!--The reason why I developed this program was that while playing a game called "Hadean Tactics", I discovered that there was a treasure chest in the tomb that could only be claimed once a day. After claiming it, there was a countdown of about 1 day before one could claim it again. In order to quickly obtain the rewards and achieve the full collection achievement, I developed this program.-->
+
+## Usage
 
 1. If your operating system is Windows 11, right - click on the system time in the lower - right corner of the menu bar and select "Adjust date and time". Then, **turn off the "Set time automatically" option**.
 If you are using other Windows systems, open the Control Panel, search for "Date and time", click on the "Internet Time" tab, and then select "Change settings". **Uncheck the "Synchronize with an Internet time server" option**.
@@ -143,7 +149,7 @@ Explanation of command parameters:
  - System_Date_Increaser.py: Your Python source code file.
 
  - **Locate the generated file**
-  After compilation, a `dist` folder will be generated in the current directory. The executable file (System_Date_Increaser.exe) is located in this folder.
+    After compilation, a `dist` folder will be generated in the current directory. The executable file (System_Date_Increaser.exe) is located in this folder.
 
   **Notes**:
 
@@ -154,6 +160,4 @@ Explanation of command parameters:
 ```bash
 pyinstaller --onefile --noconsole --name "System_Date_Increaser" System_Date_Increaser.py
 ```
-
 3. **Close the game program, then open System_Date_Increaser.exe, click the button, and open the game program again to obtain the idle rewards.**
-
