@@ -103,7 +103,6 @@ Including but not limited to:
 3. **关闭游戏程序，然后打开System_Date_Increaser.exe，点击按钮，再次打开游戏程序即可获取挂机奖励。**
 
 
-
 1. If your operating system is Windows 11, right - click on the system time in the lower - right corner of the menu bar and select "Adjust date and time". Then, **turn off the "Set time automatically" option**.
 If you are using other Windows systems, open the Control Panel, search for "Date and time", click on the "Internet Time" tab, and then select "Change settings". **Uncheck the "Synchronize with an Internet time server" option**.
 This step is to prevent the system from automatically connecting to the Internet to update the system time.
@@ -157,3 +156,4 @@ pyinstaller --onefile --noconsole --name "System_Date_Increaser" System_Date_Inc
 ```
 
 3. **Close the game program, then open System_Date_Increaser.exe, click the button, and open the game program again to obtain the idle rewards.**
+
